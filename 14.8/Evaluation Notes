@@ -1,0 +1,5 @@
+In this project, I was already committed to using Transformers as my predictive system since they are the currently the cutting edge of memory based NN's, and I wanted to become comfortable with their use in this capstone project.
+
+Therefore, in order to find a best model, I varied two parameters: the sequence length and the averaging window. The sequence length is how many ticks the NN sees before predicting the next tick. In essence, how far back in the past the model looks. The averaging window is how many ticks go into the rolling mean calculation at each tick. This rolling mean calculation is used to add a moving average feature to the data to help it make predictions. 
+
+The sequence length was varied between 12,144,and 288 ticks, and the moving average window was varied between 5,10,and 15 ticks, resulting in a total of 9 permutations to test. The loss of each system is documented in the attached excel file. The code and data used to test this is likewise found in this folder.
