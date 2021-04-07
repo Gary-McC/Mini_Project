@@ -1,0 +1,5 @@
+The actual traderbot will be deployed through my linode server to ensure constant internet access, and will access the trading market using the 
+cbpro (https://pypi.org/project/cbpro2/) API and my gdax account. 
+
+Models used for both the trading and the prediction algorithm will be updated using transfer learning on my local machine and pushed the server on a weekly basis
+to maintain model accuracy.
