@@ -1,0 +1,2 @@
+Used AWS time series forecast to run a prediction on my time series data. The csv in this folder contains the forecast result. 
+It is hard to interpret, but this is not troubling to me since the models I run on my local machine are both accurate and interpretable.
